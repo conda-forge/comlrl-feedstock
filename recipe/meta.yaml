@@ -1,4 +1,4 @@
-{% set version = "1.3.8" %}
+{% set version = "1.3.9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/OpenMLRL/CoMLRL/archive/v{{ version }}.tar.gz
-  sha256: d5c1ff28af3a86bf50a78f96184de189b6ccd92d77d569ce2405871afebc3133
+  sha256: 1afc166524debc6e942dc984e3fa1bd9f88beb2876fdb0bcdf9c99206f4ddd84
 
 build:
   noarch: python
